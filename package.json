@@ -1,0 +1,36 @@
+{
+  "name": "@sbnc/expect-type-extensions",
+  "version": "1.0.0-rc.0",
+  "description": "Additional type testing methods for the `expect-type` test suite.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbnc-eu/expect-type-extensions"
+  },
+  "bugs": {
+    "url": "https://github.com/sbnc-eu/expect-type-extensions/issues"
+  },
+  "homepage": "https://github.com/sbnc-eu/expect-type-extensions#readme",
+  "author": {
+    "name": "Bence Szalai",
+    "email": "bence@sbnc.eu",
+    "url": "https://sbnc.eu/"
+  },
+  "scripts": {
+    "test": "tsc --build tsconfig.test.json --verbose"
+  },
+  "keywords": [
+    "TypeScript",
+    "test",
+    "type-test"
+  ],
+  "main": "",
+  "types": "./types/index.d.ts",
+  "devDependencies": {
+    "expect-type": "^0.16.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "expect-type": "^0.16.0"
+  }
+}
